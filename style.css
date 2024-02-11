@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg, #0a0a0a, #3a4452)
+}
+
+.Konversi-suhu{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(140, 168, 225);
+}
+
+input{
+    width: 100%;
+    border: none;
+    padding: 8px;
+    margin: 16px;
+    font-size: small;
+
+
+
+}
+
