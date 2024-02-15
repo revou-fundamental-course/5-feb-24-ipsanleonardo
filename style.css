@@ -1,26 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.container{
+.container {
     max-width: 450px;
     background: #5b6f6f;
     border-radius: 8px;
-    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
     font-family: sans-serif;
     padding: 20px;
 }
 
-.title{
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,38 +28,38 @@ body{
     gap: 10px;
 }
 
-.Temperature-icon{
+.Temperature-icon {
     font-size: 45px;
     color: #fff;
 }
 
-h1{
+h1 {
     color: #fff;
     letter-spacing: 1.2px;
     font-size: 30px;
 }
 
-h4{
-    color: #000000;
-    letter-spacing:1.2 px;
-    font-size: px;
+h4 {
+    color: #000000; /* Changed color to black */
+    letter-spacing: 1.2px; /* Removed extra space after 1.2 */
+    font-size: 20px; /* Adjusted font size */
 }
 
-a{
+a {
     color: #fff;
     letter-spacing: 0;
     font-size: 15px;
 }
 
-
-#celsius, #fahrenheit{
+#celsius,
+#fahrenheit {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
 }
 
-input{
+input {
     flex: 5;
     height: 60px;
     font-size: 20px;
@@ -71,20 +71,18 @@ input{
     padding: 0 10px;
 }
 
-
 /* for chrome, safari, Edge, Opera */
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
 /* for Mozila firefox */
-input{
+input {
     -moz-appearance: textfield;
 }
 
-
-.icon{
+.icon {
     flex: 1;
     height: 60px;
     line-height: 60px;
@@ -96,14 +94,12 @@ input{
     border-radius: 0 8px 8px 0;
 }
 
-
-.button{
+.button {
     margin-top: 25px;
     text-align: center;
 }
 
-
-.button button{
+.button button {
     border: none;
     outline: none;
     padding: 10px 30px;
@@ -114,9 +110,7 @@ input{
     transition: 0.3s;
 }
 
-.button button:hover{
+.button button:hover {
     background: #64829e;
     color: #fff;
 }
-
-
